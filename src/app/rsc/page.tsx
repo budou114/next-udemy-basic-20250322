@@ -1,4 +1,5 @@
 import ClientComponent from "@/app/components/ClientComponent"
+import Link from "next/link"
 
 export default function SeverComponent() {
 
@@ -7,6 +8,7 @@ export default function SeverComponent() {
     <div>
       サーバー
       <ClientComponent />
+      <Link href="/about">About</Link>
     </div>
   )
 }
